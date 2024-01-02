@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,900;1,800&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,900;1,800&family=Space+Mono:wght@400;700&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: 'Work Sans', sans-serif;
+}
+.btn-vilot{
+    background-color: #A259FF;
+}
+.violet{
+    background-color: #A259FF;
+    border-radius: 11px;
+    padding: 6px 15px;
+    border: none;
+}
+.font-head{
+    font-size:65px;
+}
+.font-p{
+    font-size: 21px;
+}
+.wdth{
+    /* background: red; */
+    width: 93%;
+    
+}
+.sec-1demo{
+    display: none;
+}
+.hash{
+    background-color: #3B3B3B;
+}
+.box{
+    border-radius: 18px;
+    background-color: #3B3B3B;
+}
+.box-transprent{
+    border-radius: 18px;
+    background-color: #3B3B3B;
+    opacity: .8;
+}
+.hidden{
+    visibility: hidden;
+}
+.card{
+    width:450px;
+}
+.model-text{
+    font-size: 15px;
+}
+.model-num{
+    font-size: 18px;
+}
+.w-30{
+    width: 130px;
+}
+.w-40{
+    width: 260px;
+}
+.sec-2demo{
+    display: none;
+}
+.a-texth{
+    font-size: 17px;
+}
+.a-textp{
+    font-size: 12px;
+}
+.num-font h3{
+font-size: 23px;
+}
+.almost{
+    font-weight: 600;
+    font-size: 30px;
+}
+ .smal-font{
+    font-size: 19px;
+ }
+ .bt-vilot-big{
+    display: none;
+ }
+ .color{
+    color:#858584;
+ }
+ .a-texts{
+font-size: 13px;
+ }
+ .a-textl{
+    font-size: 15px;
+ }
+ .smal-img img{
+width: 30%;
+ }
+ .big-img img{
+    width: 100%;
+ }
+ .gp{
+    display: flex;
+    gap: 12px;
+ }
+ .btn-2{
+    height: 40px;
+    padding: 0 30px;
+    color: #fff;
+    border-color: #A259FF;
+    border-radius: 13px;
+    background: transparent;
+
+ }
+ .ml{
+    margin-left: -111px;
+ }
+ .mlb2{
+    display: none;
+}
+.mlb3{
+    display: none;
+}
+@media(max-width:1200px){
+.font-head{
+    font-size: 55px;
+}
+.font-p{
+    font-size: 20px;
+    
+}
+.card{
+    width:400px;
+}
+}
+@media(max-width:1100px){
+    .font-head{
+        font-size: 50px;
+    }
+    .font-p{
+        font-size: 18px;
+        
+    }
+    .card{
+        width:370px;
+    }
+    .size-img2 img{
+        width: 150px;
+        }
+}
+@media(max-width:910px){
+.a-textp{
+    font-size: 9px;
+    
+}
+.a-texts{
+    font-size: 10px;
+     }
+     .a-textl{
+        font-size: 13px;
+     }
+    }
+@media(max-width:910px){
+    .font-head{
+        font-size: 45px;
+    }
+    .font-p{
+        font-size: 15px;
+        
+    }
+    .card{
+        width:300px;
+    }
+    .num-font h3{
+        font-size: 15px;
+        }
+        .num-font p{
+            font-size: 13px;
+        }
+ .smal-font{
+    font-size: 13px;
+ }
+ .small-font{
+    font-size: 9px;
+ }
+ .almost{
+    font-weight: 600;
+    font-size: 25px;
+}
+}
+@media(max-width:900px){
+    .mlb{
+        display: none;
+    }
+    .mlb2{
+        display: block;
+    }
+}
+@media(max-width:840px){
+    .a-textl{
+        font-size: 11px;
+     } 
+}
+@media(max-width:767px){
+.hii{
+    display: none;
+}
+}
+@media(max-width:760px){
+.size-img img{
+width: 80px;
+}
+.size-img2 img{
+    width: 100px;
+    }
+}
+@media(max-width:760px){
+    .a-textp{
+        font-size: 11px;
+    }
+}
+@media(max-width:701px){
+    .font-head{
+        font-size: 40px;
+    }
+    .font-p{
+        font-size: 11px;
+        
+    }
+    .card{
+        width:260px;
+    }
+    .num-font h3{
+        font-size: 13px;
+        }
+        .num-font p{
+            font-size: 10px;
+        }
+        .almost{
+            font-weight: 600;
+            font-size: 20px;
+        }
+        input{
+            font-size: 12px !important;
+        }
+        .btt{
+            font-size: 11px;
+        }
+        .foot-btn{
+            display: none;
+        }
+        .mlb3{
+            display: block;
+        }
+}
+@media(max-width:622px){
+    .font-head{
+        font-size: 30px;
+    }
+    .font-p{
+        font-size: 10px;
+        
+    }
+    .card{
+        width:230px;
+    }
+    .num-font h3{
+        font-size: 13px;
+        }
+        .num-font p{
+            font-size: 10px;
+        }
+        .bt-txt{
+            font-size: 9px;
+          }
+          .smal-font{
+            font-size: 11px;
+         }
+}
+@media(max-width:580px){
+    .font-head{
+        font-size: 25px;
+    }
+    
+    .card{
+        width:180px;
+    }
+    .num-font h3{
+        font-size: 10px;
+        }
+        .num-font p{
+            font-size:9px;
+        }
+        .a-texts{
+            font-size: 10px;
+             }
+             .a-textl{
+                font-size: 12px;
+             }
+}
+@media(max-width:576px){
+    .hii{
+        
+        display:block ;
+    }
+    }
+@media(max-width:519px){
+    .bt-vilot-big{
+        display: block;
+     }
+    .bt-vilot{
+        display:none;
+    }
+}
+@media(max-width:360px){
+    .logo-img img{
+        width: 170px;
+    }
+    
+}
+@media(max-width:450px){
+    .sec-1{
+     display: none;
+    }
+    .sec-1demo{
+        display: block;
+    }
+    .sec-2{
+display: none;
+    }
+    .sec-2demo{
+        display: block;
+    }
+   
+    }
+    @media(max-width:320px){
+        .a-textp{
+            font-size: 10px;
+        }
+    }
